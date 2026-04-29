@@ -12,7 +12,6 @@ La página de inicio presenta la esencia de The RP’s:
 - Identidad visual de la banda (logo, colores y estética rock).
 - Mensaje principal que define el espíritu del grupo.
 - Acceso directo a las secciones clave: música, conciertos, merch y contacto.
-- Últimas novedades: lanzamientos, fechas de gira y anuncios especiales.
 - Enlaces a redes sociales para seguir a la banda.
 
 El objetivo del inicio es transmitir quiénes somos y por qué sonamos como sonamos.
@@ -28,7 +27,6 @@ Incluye:
 - Camisetas con diseños exclusivos.
 - Sudaderas y ropa de edición limitada.
 - Accesorios como chapas, pegatinas o plectros.
-- Ediciones físicas de música (CDs, vinilos, etc.).
 - Información sobre precios, tallas, envíos y disponibilidad.
 
 La página está pensada para ser visual, directa y fácil de usar.
