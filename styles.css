@@ -115,7 +115,6 @@ body {
   transition: all 0.3s ease;
 }
 
-/* IMAGEN */
 .card-prensa img {
   width: 100%;
   height: 180px;
@@ -123,7 +122,6 @@ body {
   transition: 0.3s;
 }
 
-/* INFO */
 .info-prensa {
   padding: 15px;
   text-align: left;
@@ -172,15 +170,86 @@ body {
   transition: all 0.3s ease;
 }
 
-/* Efecto al pasar el ratón */
 .red-link:hover {
   background-color: #333;
   color: white;
   transform: translateY(-3px); 
 }
 
+.merch-header {
+  text-align: center;
+  padding: 60px 20px;
+}
 
-/* Efecto al pasar el ratón */
+.merch-header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.merch-header p {
+  opacity: 0.8;
+}
+
+/* CONTENEDOR */
+.merch-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+/* TARJETAS */
+.product-card {
+  background: #111;
+  border-radius: 12px;
+  width: 260px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+/* IMAGEN */
+.product-img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* INFO */
+.product-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.product-info h3 {
+  margin-bottom: 10px;
+}
+
+.price {
+  color: #ffcc00;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* BOTÓN COMPRA */
+.btn-buy {
+  background: #ffcc00;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-buy:hover {
+  background: #ffaa00;
+}
 .red-link:hover {
   background-color: #333;
   color: white;
