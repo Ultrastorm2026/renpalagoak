@@ -235,18 +235,77 @@ body {
   font-weight: bold;
   margin-bottom: 15px;
 }
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+  }
 
-/* BOTÓN COMPRA */
-.btn-buy {
-  background: #ffcc00;
-  border: none;
-  padding: 10px 15px;
-  cursor: pointer;
-  border-radius: 20px;
-  font-weight: bold;
-  transition: 0.3s;
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .hero {
+    left: 20px;
+    top: 35%;
+    text-align: left;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .logo-concierto {
+    width: 120px;
+  }
 }
 
-.btn-buy:hover {
-  background: #ffaa00;
+@media (max-width: 768px) {
+  .contenedor-prensa {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-prensa {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .contenedor-iconos {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .red-link {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .merch-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    top: 30%;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .navbar {
+    padding: 10px;
+  }
 }
