@@ -235,6 +235,22 @@ body {
   font-weight: bold;
   margin-bottom: 15px;
 }
+
+/* BOTÓN COMPRA */
+.btn-buy {
+  background: #ffcc00;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-buy:hover {
+  background: #ffaa00;
+}
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
