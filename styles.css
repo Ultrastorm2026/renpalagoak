@@ -250,8 +250,3 @@ body {
 .btn-buy:hover {
   background: #ffaa00;
 }
-.red-link:hover {
-  background-color: #333;
-  color: white;
-  transform: translateY(-3px); /* Pequeño salto hacia arriba */
-}
