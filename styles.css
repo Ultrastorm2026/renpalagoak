@@ -329,3 +329,217 @@ body {
     background: white;
     color: #0f1a20;
 }
+
+/* CONÓCENOS */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.conocenos {
+    max-width: 900px;
+    margin: 4rem auto;
+    padding: 3rem 2rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
+}
+
+.conocenos h2 {
+    font-size: 2.5rem;
+    background: linear-gradient(45deg, #ffd700, #ffed4a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.conocenos p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    opacity: 0.9;
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+}
+
+.members-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 3rem;
+    padding: 5rem 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.member-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background: linear-gradient(135deg, rgba(26, 26, 26, 0.9), rgba(42, 42, 42, 1));
+    border-radius: 25px;
+    padding: 2.5rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+    transition: all 0.4s ease;
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.member-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #ffd700, #ffed4a);
+}
+
+.member-card:hover {
+    transform: translateY(-15px) scale(1.02);
+    box-shadow: 0 35px 70px rgba(255, 215, 0, 0.3);
+}
+
+.side-img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+
+.side-img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.member-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10%;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+    border: 2px solid #ffd700;
+    flex-shrink: 0;
+}
+
+.member-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.member-article h3 {
+    font-size: 1.8rem;
+    background: linear-gradient(45deg, #ffd700, #ffed4a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.member-article p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    opacity: 0.95;
+}
+
+.footer {
+    text-align: center;
+    padding: 2.5rem 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 3rem;
+}
+
+.footer p {
+    margin-bottom: 0.5rem;
+}
+
+.footer a {
+    color: #ffd700;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #ffed4a;
+    text-decoration: underline;
+}
+
+.separator {
+    width: 80%;
+    height: 1px;
+    background-color: #000000;
+    margin: 2rem auto;
+    border: #333 solid 10px;
+    font-size: larger;
+}
+
+.programmer-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10%;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+    border: 4px solid #ffd700;
+    margin-top: 2rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+    .members-grid {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .members-grid {
+        grid-template-columns: 1fr;
+        padding: 3rem 1rem;
+        gap: 2rem;
+    }
+
+    .member-card {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 2rem;
+    }
+
+    .conocenos {
+        margin: 2rem 1rem;
+        padding: 2.5rem 1.5rem;
+    }
+
+    .conocenos h2 {
+        font-size: 2rem;
+    }
+
+    .hero {
+        left: 20px;
+        top: 30%;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .menu {
+        gap: 15px;
+    }
+}
